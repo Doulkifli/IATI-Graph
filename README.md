@@ -12,12 +12,14 @@ The project will undertake to:
 
 ## IATI Data Formatting and Storage
 
-IATI is an open data sharing framework and XML Standard which over 1000 humanitarian organizations are using to share detailed information on aid activities, transactions and results. IATI is made up of two standards, an Organizations Standard and an Activity Standard.
+IATI is an open data sharing framework and XML Standard created by the humanitarian community and managed by the [International Aid Transparency Initiative](https://iatistandard.org/en/). Over 1000 humanitarian [organizations](https://iatiregistry.org/publisher) are using IATI to report aid activities, transactions and results and make the detailed information accessible to machine applications. IATI is made up of two standards: one for basic organization information and one for detailed activity information.
 
-The project will identify an ideal way to graphically harmonize and format IATI's two different types of data, facilitating extraction, storage and retrieval.
+The microproject will initially seek to identify an ideal way of graphically combining and formatting IATI's two different types of XML data to later facilitating inporting data into the graph database, storage and retrieval.
 
-* Lists of IATI elements and activities can be found here: [Organization]() and [Activity]().
-* Example XML files containing all of IATI's elements and attributes can be found here: [Organization]() and [Activity]()
+#### Reference
+
+* Tables of IATI elements and attributes can be found here: [Organization](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Org_Elements_Attributes%20-%20Sheet1.csv) and [Activity](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Activity_Elements_Attributes%20-%20Sheet1.csv).
+* Example XML files containing all of IATI's elements and attributes can be found here: [Organization](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Org_XML.xml) and [Activity](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Activity_XML.xml)
 * Preview of an actual activity file containing multiple activities: [Oxfam-Jordan](http://preview.iatistandard.org/index.php?url=http%3A//iati.oxfam.org.uk/xml/oxfamgb-jo.xml)
 * Source XML file: [Oxfam-Jordan](http://iati.oxfam.org.uk/xml/oxfamgb-jo.xml)
 
