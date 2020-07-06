@@ -8,7 +8,7 @@ The project will undertake to do three things:
 
 * Research and test ways of [formatting and storing]() IATI XML data in a graph database
 * [Setup and load]() an entire IATI corpus into a test graph database
-* [Setup and maintain]() an up-to-date version of IATI's entire dataset in a research ready graph database
+* [Setup and maintain](https://github.com/Humanitarian-AI/IATI-Graph/milestone/3) an up-to-date version of IATI's entire dataset in a research ready graph database
 
 ## IATI Data Formatting and Storage
 
