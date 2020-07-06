@@ -12,7 +12,7 @@ The project will undertake to:
 
 ## IATI Data Formatting and Storage
 
-IATI is an open data sharing framework and XML Standard created by the humanitarian community that's managed by the [International Aid Transparency Initiative](https://iatistandard.org/en/). Over 1000 humanitarian [organizations](https://iatiregistry.org/publisher) are using IATI to report aid activities, transactions and results and make the detailed information accessible to machine applications.
+IATI is an open data sharing framework and XML Standard created by the humanitarian community that's managed by the [International Aid Transparency Initiative](https://iatistandard.org/en/). Over 1000 humanitarian [organizations](https://iatiregistry.org/publisher) are using IATI to report aid activities, transactions and results and to make the detailed information accessible to machine applications.
 
 IATI is made up of two standards: one for basic organization information and one for detailed activity information. The microproject will initially seek to identify how best to graphically combine IATI's two different types of XML data to facilitate inporting data into the graph database, storage and retrieval.
 
