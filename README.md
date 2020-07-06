@@ -29,7 +29,9 @@ IATI breaks information down in XML elements from "Organizations" to "Organizati
 
 ![IATI Graph Format](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Graph_Format.png)
 
-#### Example XML (Three activities and Reporting Organization, Title and Description fields)
+#### Example XML
+
+XML snippet showing two activities nested under an "activities" tag with reporting-org, title and activity description information.
 
 ```xml
 <iati-activities generated-datetime="2020-06-22T00:46:34" version="2.02">
