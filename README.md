@@ -1,6 +1,6 @@
 # IATI Graph Database
 
-Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database for members and others to use for extensive query testing and prototype applications development.
+Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database for members, students and others to use for extensive query testing and prototype applications development.
 
 ## Milestones
 
