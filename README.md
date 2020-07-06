@@ -1,10 +1,10 @@
 # IATI Graph Database
 
-Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database.
+Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database for members and others to use for extensive query testing and prototype applications development.
 
 ## Milestones
 
-The project will undertake to do three things:
+The project will undertake to:
 
 * Research and test ways of [formatting and storing](https://github.com/Humanitarian-AI/IATI-Graph/milestone/1) IATI XML data in a graph database
 * [Setup and load](https://github.com/Humanitarian-AI/IATI-Graph/milestone/2) an entire IATI corpus into a test graph database
