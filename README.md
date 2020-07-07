@@ -1,6 +1,6 @@
 # IATI Graph Database
 
-Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database for members and others to use for extensive query testing and prototype applications development.
+Microproject focusing on storing an up-to-date version of IATI's entire dataset in a Neo4j graph database for members, students and others to use for extensive query testing and prototype applications development.
 
 ## Milestones
 
@@ -12,12 +12,14 @@ The project will undertake to:
 
 ## IATI Data Formatting and Storage
 
-IATI is an open data sharing framework and XML Standard which over 1000 humanitarian organizations are using to share detailed information on aid activities, transactions and results. IATI is made up of two standards, an Organizations Standard and an Activity Standard.
+IATI is an open data sharing framework and XML Standard created by the humanitarian community that's managed by the [International Aid Transparency Initiative](https://iatistandard.org/en/). Over 1000 humanitarian [organizations](https://iatiregistry.org/publisher) are using IATI to report aid activities, transactions and results and to make the detailed information accessible to machine applications.
 
-The project will identify an ideal way to graphically harmonize and format IATI's two different types of data, facilitating extraction, storage and retrieval.
+IATI is made up of two standards: one for basic organization information and one for detailed activity information. The microproject will initially seek to identify how best to graphically combine IATI's two different types of XML data to facilitate inporting data into the graph database, storage and retrieval.
 
-* Lists of IATI elements and activities can be found here: [Organization]() and [Activity]().
-* Example XML files containing all of IATI's elements and attributes can be found here: [Organization]() and [Activity]()
+#### Reference
+
+* Tables of IATI elements and attributes can be found here: [Organization](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Org_Elements_Attributes%20-%20Sheet1.csv) and [Activity](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Activity_Elements_Attributes%20-%20Sheet1.csv).
+* Example XML files containing all of IATI's elements and attributes can be found here: [Organization](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Org_XML.xml) and [Activity](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Activity_XML.xml)
 * Preview of an actual activity file containing multiple activities: [Oxfam-Jordan](http://preview.iatistandard.org/index.php?url=http%3A//iati.oxfam.org.uk/xml/oxfamgb-jo.xml)
 * Source XML file: [Oxfam-Jordan](http://iati.oxfam.org.uk/xml/oxfamgb-jo.xml)
 
@@ -27,7 +29,9 @@ IATI breaks information down in XML elements from "Organizations" to "Organizati
 
 ![IATI Graph Format](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Graph_Format.png)
 
-#### Example XML (Three activities and Reporting Organization, Title and Description fields)
+#### Example XML
+
+XML snippet showing two activities nested under an "activities" tag with reporting-org, title and activity description information.
 
 ```xml
 <iati-activities generated-datetime="2020-06-22T00:46:34" version="2.02">
@@ -57,6 +61,11 @@ IATI breaks information down in XML elements from "Organizations" to "Organizati
 </iati-activity>
 </iati-activities>
 ```
+#### Neo4j Graph Format
+
+Example of the above XML code snipped graphed in basic detail:
+
+![Activities Graphed](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Graph_Activities.png)
 
 #### Graphical Format (proposed)
 
