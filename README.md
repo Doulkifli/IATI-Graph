@@ -61,6 +61,8 @@ XML snippet showing two activities nested under an "activities" tag with reporti
 </iati-activity>
 </iati-activities>
 ```
+Example of the above code snipped graphed:
+![Activities Graphed](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Graph_Activities.png)
 
 #### Graphical Format (proposed)
 
