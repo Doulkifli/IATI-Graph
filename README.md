@@ -69,7 +69,7 @@ Example of the above XML code snipped graphed in basic detail:
 
 #### Graphical Format (proposed)
 
-Under construction: [CREATE ststement](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Create.txt) for the above IATI XML example with two activities.
+Under construction: [CREATE statement](https://github.com/Humanitarian-AI/IATI-Graph/blob/master/IATI_Example_Create.txt) for the above IATI XML example with two activities.
 
 ## Data Loading and Testing
 
