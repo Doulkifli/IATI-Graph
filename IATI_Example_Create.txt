@@ -1,0 +1,3 @@
+CREATE (a:iatiactivities {generateddatetime:"2020-06-22T00:46:34", version:"2.02"})
+CREATE (a)-[:Iatiactivity]->(b:iatiactivity {defaultcurrency:"GBP", lastupdateddatetime:"2015-02-19T12:23:58", lang:"en"})
+CREATE (a)-[:iatiidentifier]->(c:iatiidentifier {iatiidentifier:"GB-CHC-202918-JORA43"})
